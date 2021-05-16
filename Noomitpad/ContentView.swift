@@ -8,9 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var booksViewModel = BooksViewModel()
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        TabView{
+            MainView()
+                .tabItem {
+                    Image(systemName: "house")
+                    Text("Main")
+                }
+            BooksView()
+                .tabItem {
+                    Image(systemName: "book")
+                    Text("Books")
+                }
+            NewBookView()
+                .tabItem {
+                    Image(systemName: "plus.square")
+                    Text("New Book")
+                }
+        }.environmentObject(booksViewModel)
     }
 }
 

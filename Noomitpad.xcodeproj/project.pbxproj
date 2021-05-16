@@ -3,16 +3,30 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		442E46FA8044D6D0B22ADDDC /* Pods_Noomitpad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0EFD7EFBAFD49893B167C8 /* Pods_Noomitpad.framework */; };
+		746D01A376D47009F2AD84E8 /* Pods_Noomitpad_NoomitpadUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 899524064D302AAB3576AC6F /* Pods_Noomitpad_NoomitpadUITests.framework */; };
+		AD66B0F72650096C0002A540 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD66B0F62650096C0002A540 /* CustomTextField.swift */; };
+		AD66B0FF26500EFF0002A540 /* RateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD66B0FE26500EFF0002A540 /* RateView.swift */; };
+		AD66B10426503D0F0002A540 /* BookDetailSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD66B10326503D0F0002A540 /* BookDetailSheetView.swift */; };
+		AD66B10926503DDE0002A540 /* BookListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD66B10826503DDE0002A540 /* BookListItemView.swift */; };
+		AD89AE2426510445007C15F5 /* OpenGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD89AE2326510445007C15F5 /* OpenGallery.swift */; };
+		ADC7814A264FEFC900D932CA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC78149264FEFC900D932CA /* MainView.swift */; };
+		ADC7814F264FEFDA00D932CA /* BooksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC7814E264FEFDA00D932CA /* BooksView.swift */; };
+		ADC78154264FEFE500D932CA /* NewBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC78153264FEFE500D932CA /* NewBookView.swift */; };
+		ADC78159264FF55E00D932CA /* BooksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC78158264FF55D00D932CA /* BooksViewModel.swift */; };
 		ADF43917264FE7880032FAD6 /* NoomitpadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF43916264FE7880032FAD6 /* NoomitpadApp.swift */; };
 		ADF43919264FE7880032FAD6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF43918264FE7880032FAD6 /* ContentView.swift */; };
 		ADF4391B264FE78C0032FAD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADF4391A264FE78C0032FAD6 /* Assets.xcassets */; };
 		ADF4391E264FE78C0032FAD6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADF4391D264FE78C0032FAD6 /* Preview Assets.xcassets */; };
 		ADF43929264FE78D0032FAD6 /* NoomitpadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF43928264FE78D0032FAD6 /* NoomitpadTests.swift */; };
 		ADF43934264FE78D0032FAD6 /* NoomitpadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF43933264FE78D0032FAD6 /* NoomitpadUITests.swift */; };
+		ADF43948264FE7C10032FAD6 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF43947264FE7C10032FAD6 /* Book.swift */; };
+		ADF43950264FEB2E0032FAD6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ADF4394F264FEB2E0032FAD6 /* GoogleService-Info.plist */; };
+		CFF2570761714C62E2CBE6A6 /* Pods_NoomitpadTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7190C3A051353D12E05830F2 /* Pods_NoomitpadTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +47,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17E2CBCA26A420EE6F9984A3 /* Pods-NoomitpadTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoomitpadTests.release.xcconfig"; path = "Target Support Files/Pods-NoomitpadTests/Pods-NoomitpadTests.release.xcconfig"; sourceTree = "<group>"; };
+		7190C3A051353D12E05830F2 /* Pods_NoomitpadTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NoomitpadTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		899524064D302AAB3576AC6F /* Pods_Noomitpad_NoomitpadUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Noomitpad_NoomitpadUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90E8C45EE165ACDC64B975D1 /* Pods-NoomitpadTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoomitpadTests.debug.xcconfig"; path = "Target Support Files/Pods-NoomitpadTests/Pods-NoomitpadTests.debug.xcconfig"; sourceTree = "<group>"; };
+		930FEF39AD29F9103EC6C5F7 /* Pods-Noomitpad-NoomitpadUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noomitpad-NoomitpadUITests.debug.xcconfig"; path = "Target Support Files/Pods-Noomitpad-NoomitpadUITests/Pods-Noomitpad-NoomitpadUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A850B8679AB17691C1C73A82 /* Pods-Noomitpad-NoomitpadUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noomitpad-NoomitpadUITests.release.xcconfig"; path = "Target Support Files/Pods-Noomitpad-NoomitpadUITests/Pods-Noomitpad-NoomitpadUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AD66B0F62650096C0002A540 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		AD66B0FE26500EFF0002A540 /* RateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateView.swift; sourceTree = "<group>"; };
+		AD66B10326503D0F0002A540 /* BookDetailSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailSheetView.swift; sourceTree = "<group>"; };
+		AD66B10826503DDE0002A540 /* BookListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListItemView.swift; sourceTree = "<group>"; };
+		AD89AE2326510445007C15F5 /* OpenGallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenGallery.swift; sourceTree = "<group>"; };
+		ADC78149264FEFC900D932CA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		ADC7814E264FEFDA00D932CA /* BooksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksView.swift; sourceTree = "<group>"; };
+		ADC78153264FEFE500D932CA /* NewBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBookView.swift; sourceTree = "<group>"; };
+		ADC78158264FF55D00D932CA /* BooksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewModel.swift; sourceTree = "<group>"; };
 		ADF43913264FE7880032FAD6 /* Noomitpad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Noomitpad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADF43916264FE7880032FAD6 /* NoomitpadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoomitpadApp.swift; sourceTree = "<group>"; };
 		ADF43918264FE7880032FAD6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +74,11 @@
 		ADF4392F264FE78D0032FAD6 /* NoomitpadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoomitpadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADF43933264FE78D0032FAD6 /* NoomitpadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoomitpadUITests.swift; sourceTree = "<group>"; };
 		ADF43935264FE78D0032FAD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADF43947264FE7C10032FAD6 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		ADF4394F264FEB2E0032FAD6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B98FC7A6C0A98740F29E0B2F /* Pods-Noomitpad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noomitpad.release.xcconfig"; path = "Target Support Files/Pods-Noomitpad/Pods-Noomitpad.release.xcconfig"; sourceTree = "<group>"; };
+		EF0EFD7EFBAFD49893B167C8 /* Pods_Noomitpad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Noomitpad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF55B2CA56A55F24F3CEB4B5 /* Pods-Noomitpad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noomitpad.debug.xcconfig"; path = "Target Support Files/Pods-Noomitpad/Pods-Noomitpad.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				442E46FA8044D6D0B22ADDDC /* Pods_Noomitpad.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFF2570761714C62E2CBE6A6 /* Pods_NoomitpadTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +102,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				746D01A376D47009F2AD84E8 /* Pods_Noomitpad_NoomitpadUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B5F0C2433A48D7E1641FBA5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF55B2CA56A55F24F3CEB4B5 /* Pods-Noomitpad.debug.xcconfig */,
+				B98FC7A6C0A98740F29E0B2F /* Pods-Noomitpad.release.xcconfig */,
+				930FEF39AD29F9103EC6C5F7 /* Pods-Noomitpad-NoomitpadUITests.debug.xcconfig */,
+				A850B8679AB17691C1C73A82 /* Pods-Noomitpad-NoomitpadUITests.release.xcconfig */,
+				90E8C45EE165ACDC64B975D1 /* Pods-NoomitpadTests.debug.xcconfig */,
+				17E2CBCA26A420EE6F9984A3 /* Pods-NoomitpadTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AD66B0F52650095A0002A540 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AD66B0F62650096C0002A540 /* CustomTextField.swift */,
+				AD66B0FE26500EFF0002A540 /* RateView.swift */,
+				AD66B10326503D0F0002A540 /* BookDetailSheetView.swift */,
+				AD66B10826503DDE0002A540 /* BookListItemView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		AD89AE2226510430007C15F5 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				AD89AE2326510445007C15F5 /* OpenGallery.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		ADF4390A264FE7880032FAD6 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +148,8 @@
 				ADF43927264FE78D0032FAD6 /* NoomitpadTests */,
 				ADF43932264FE78D0032FAD6 /* NoomitpadUITests */,
 				ADF43914264FE7880032FAD6 /* Products */,
+				7B5F0C2433A48D7E1641FBA5 /* Pods */,
+				E79E103C932DEEC585FDC110 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +166,11 @@
 		ADF43915264FE7880032FAD6 /* Noomitpad */ = {
 			isa = PBXGroup;
 			children = (
+				AD89AE2226510430007C15F5 /* Helper */,
+				ADF4394F264FEB2E0032FAD6 /* GoogleService-Info.plist */,
+				ADF43946264FE7AF0032FAD6 /* Model */,
+				ADF43945264FE7A40032FAD6 /* ViewModel */,
+				ADF43944264FE79F0032FAD6 /* View */,
 				ADF43916264FE7880032FAD6 /* NoomitpadApp.swift */,
 				ADF43918264FE7880032FAD6 /* ContentView.swift */,
 				ADF4391A264FE78C0032FAD6 /* Assets.xcassets */,
@@ -130,6 +206,43 @@
 			path = NoomitpadUITests;
 			sourceTree = "<group>";
 		};
+		ADF43944264FE79F0032FAD6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AD66B0F52650095A0002A540 /* Components */,
+				ADC78149264FEFC900D932CA /* MainView.swift */,
+				ADC7814E264FEFDA00D932CA /* BooksView.swift */,
+				ADC78153264FEFE500D932CA /* NewBookView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ADF43945264FE7A40032FAD6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				ADC78158264FF55D00D932CA /* BooksViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		ADF43946264FE7AF0032FAD6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ADF43947264FE7C10032FAD6 /* Book.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E79E103C932DEEC585FDC110 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF0EFD7EFBAFD49893B167C8 /* Pods_Noomitpad.framework */,
+				899524064D302AAB3576AC6F /* Pods_Noomitpad_NoomitpadUITests.framework */,
+				7190C3A051353D12E05830F2 /* Pods_NoomitpadTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +250,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ADF43938264FE78D0032FAD6 /* Build configuration list for PBXNativeTarget "Noomitpad" */;
 			buildPhases = (
+				CBD3D0341018F6B5E65FCDA5 /* [CP] Check Pods Manifest.lock */,
 				ADF4390F264FE7880032FAD6 /* Sources */,
 				ADF43910264FE7880032FAD6 /* Frameworks */,
 				ADF43911264FE7880032FAD6 /* Resources */,
+				09CBD74E9D8AA2A032E76475 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +269,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ADF4393B264FE78D0032FAD6 /* Build configuration list for PBXNativeTarget "NoomitpadTests" */;
 			buildPhases = (
+				9979DB8EB62461E02933B82F /* [CP] Check Pods Manifest.lock */,
 				ADF43920264FE78D0032FAD6 /* Sources */,
 				ADF43921264FE78D0032FAD6 /* Frameworks */,
 				ADF43922264FE78D0032FAD6 /* Resources */,
@@ -172,9 +288,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ADF4393E264FE78D0032FAD6 /* Build configuration list for PBXNativeTarget "NoomitpadUITests" */;
 			buildPhases = (
+				9D3C24D13C0C5F3527ACC324 /* [CP] Check Pods Manifest.lock */,
 				ADF4392B264FE78D0032FAD6 /* Sources */,
 				ADF4392C264FE78D0032FAD6 /* Frameworks */,
 				ADF4392D264FE78D0032FAD6 /* Resources */,
+				38CB058516E2029B5F750FE0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,6 +352,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADF4391E264FE78C0032FAD6 /* Preview Assets.xcassets in Resources */,
+				ADF43950264FEB2E0032FAD6 /* GoogleService-Info.plist in Resources */,
 				ADF4391B264FE78C0032FAD6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,13 +373,126 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09CBD74E9D8AA2A032E76475 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Noomitpad/Pods-Noomitpad-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Noomitpad/Pods-Noomitpad-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Noomitpad/Pods-Noomitpad-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38CB058516E2029B5F750FE0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Noomitpad-NoomitpadUITests/Pods-Noomitpad-NoomitpadUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Noomitpad-NoomitpadUITests/Pods-Noomitpad-NoomitpadUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Noomitpad-NoomitpadUITests/Pods-Noomitpad-NoomitpadUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9979DB8EB62461E02933B82F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NoomitpadTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D3C24D13C0C5F3527ACC324 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Noomitpad-NoomitpadUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBD3D0341018F6B5E65FCDA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Noomitpad-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ADF4390F264FE7880032FAD6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				ADF43919264FE7880032FAD6 /* ContentView.swift in Sources */,
+				ADC7814A264FEFC900D932CA /* MainView.swift in Sources */,
+				AD89AE2426510445007C15F5 /* OpenGallery.swift in Sources */,
+				AD66B10926503DDE0002A540 /* BookListItemView.swift in Sources */,
+				AD66B0FF26500EFF0002A540 /* RateView.swift in Sources */,
+				ADC78154264FEFE500D932CA /* NewBookView.swift in Sources */,
+				AD66B10426503D0F0002A540 /* BookDetailSheetView.swift in Sources */,
+				ADC78159264FF55E00D932CA /* BooksViewModel.swift in Sources */,
+				AD66B0F72650096C0002A540 /* CustomTextField.swift in Sources */,
+				ADC7814F264FEFDA00D932CA /* BooksView.swift in Sources */,
 				ADF43917264FE7880032FAD6 /* NoomitpadApp.swift in Sources */,
+				ADF43948264FE7C10032FAD6 /* Book.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +646,7 @@
 		};
 		ADF43939264FE78D0032FAD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF55B2CA56A55F24F3CEB4B5 /* Pods-Noomitpad.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -436,6 +669,7 @@
 		};
 		ADF4393A264FE78D0032FAD6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B98FC7A6C0A98740F29E0B2F /* Pods-Noomitpad.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -458,6 +692,7 @@
 		};
 		ADF4393C264FE78D0032FAD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90E8C45EE165ACDC64B975D1 /* Pods-NoomitpadTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -480,6 +715,7 @@
 		};
 		ADF4393D264FE78D0032FAD6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17E2CBCA26A420EE6F9984A3 /* Pods-NoomitpadTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +738,7 @@
 		};
 		ADF4393F264FE78D0032FAD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 930FEF39AD29F9103EC6C5F7 /* Pods-Noomitpad-NoomitpadUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -522,6 +759,7 @@
 		};
 		ADF43940264FE78D0032FAD6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A850B8679AB17691C1C73A82 /* Pods-Noomitpad-NoomitpadUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
