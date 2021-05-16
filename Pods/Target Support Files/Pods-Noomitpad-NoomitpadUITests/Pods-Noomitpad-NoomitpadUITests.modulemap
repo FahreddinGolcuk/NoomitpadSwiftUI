@@ -1,0 +1,6 @@
+framework module Pods_Noomitpad_NoomitpadUITests {
+  umbrella header "Pods-Noomitpad-NoomitpadUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
